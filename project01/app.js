@@ -51,12 +51,14 @@ window.addEventListener("load", function(){
     orders.map (order =>{
         output += `
         <div class="order">
+
         <img src="${order.kep}">
         <p>Sorszám: ${order.id}</p>
         <h3>Rendelés: ${order.pizza}</h3>
         <strong>Extra: ${order.extra} </strong>
         <p>Üditő: ${order.ital}</p>
-        <strong>Végösszeg: ${order.ar}</storng> 
+        <strong>Végösszeg: ${order.ar}</strong> 
+
         </div>
         `
     })
